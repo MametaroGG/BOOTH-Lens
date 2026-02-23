@@ -1,0 +1,102 @@
+--- Tail of e:/GitHub/BOOTH-Lens/backend/scraper/scrape_popular.log ---
+2026-02-23 20:31:01,729 [INFO]   -> 17 imgs (516KB) | 6 avatars | 0 colors | 1 tags
+2026-02-23 20:31:03,835 [INFO] [22/7528] 『9アバター対応』DENIM_TYPE... (5767 likes)
+2026-02-23 20:32:03,910 [INFO]   -> 8 imgs (371KB) | 0 avatars | 0 colors | 1 tags
+2026-02-23 20:32:06,911 [INFO] [23/7528] 👾ルーズゲーマー👾(↑→LooseGamer↓←)7アバター対応... (4243 likes)
+2026-02-23 20:35:03,835 [INFO]   -> 25 imgs (905KB) | 4 avatars | 0 colors | 1 tags
+2026-02-23 20:35:05,858 [INFO] [24/7528] オリジナル3Dモデル「FluffyLily」#なっふな堂... (5920 likes)
+2026-02-23 20:37:14,453 [INFO]   -> 38 imgs (858KB) | 1 avatars | 0 colors | 1 tags
+2026-02-23 20:37:16,769 [INFO] [25/7528] 【7アバター対応】🖤Bonita🖤... (5905 likes)
+2026-02-23 20:44:44,720 [INFO]   -> 47 imgs (988KB) | 7 avatars | 0 colors | 1 tags
+2026-02-23 20:44:47,695 [INFO] [26/7528] 【複数アバター対応】天士... (5277 likes)
+2026-02-23 20:47:25,924 [INFO]   -> 29 imgs (520KB) | 6 avatars | 0 colors | 1 tags
+2026-02-23 20:47:28,296 [INFO] [27/7528] ✨セール中✨Lumi Hollow【18アバター対応】... (5785 likes)
+2026-02-23 20:49:14,905 [INFO]   -> 18 imgs (423KB) | 9 avatars | 0 colors | 1 tags
+2026-02-23 20:49:17,284 [INFO] [28/7528] ツインテールポニーヘア... (4910 likes)
+2026-02-23 20:49:37,210 [INFO]   -> 11 imgs (177KB) | 0 avatars | 0 colors | 1 tags
+2026-02-23 20:49:40,092 [INFO] [29/7528] 🩵🤍電脳ナース🤍🩵【⚡電脳カルテ⚡コラボ衣装！】... (5618 likes)
+2026-02-23 20:53:59,645 [INFO]   -> 30 imgs (568KB) | 0 avatars | 0 colors | 1 tags
+2026-02-23 20:54:01,412 [INFO] [30/7528] ♥FREE♥6アバター対応♥Lovely pearl♥... (7981 likes)
+2026-02-23 20:54:18,296 [INFO]   -> 6 imgs (145KB) | 2 avatars | 0 colors | 1 tags
+2026-02-23 20:54:20,365 [INFO] [31/7528] 【15アバター対応】Seraph Curl Hair【VRChat】... (4784 likes)
+2026-02-23 20:58:27,364 [INFO]   -> 24 imgs (520KB) | 0 avatars | 0 colors | 1 tags
+2026-02-23 20:58:29,290 [INFO] [32/7528] EXTENSION CLOTHING "ACTIVE TWIN HAIR"... (4257 likes)
+2026-02-23 21:01:41,466 [INFO]   -> 16 imgs (363KB) | 10 avatars | 0 colors | 1 tags
+2026-02-23 21:01:43,116 [INFO] [33/7528] half up messy bun... (5211 likes)
+2026-02-23 21:03:16,042 [INFO]   -> 10 imgs (162KB) | 0 avatars | 0 colors | 1 tags
+2026-02-23 21:03:18,228 [INFO] [34/7528] 【ネメシス＆エルシオン追加記念セール！】💎MilkyDream💎【27アバター対応】... (5735 likes)
+2026-02-23 21:06:15,363 [INFO]   -> 29 imgs (531KB) | 11 avatars | 0 colors | 1 tags
+2026-02-23 21:06:18,156 [INFO] [35/7528] 【マフラーギミック】ぬくぬくロング... (4974 likes)
+2026-02-23 21:08:18,581 [INFO]   -> 15 imgs (230KB) | 0 avatars | 0 colors | 1 tags
+2026-02-23 21:08:20,258 [INFO] [36/7528] Blunt Bang Hair... (5472 likes)
+2026-02-23 21:10:15,688 [INFO]   -> 10 imgs (116KB) | 7 avatars | 0 colors | 1 tags
+2026-02-23 21:10:18,521 [INFO] [37/7528] 【SALE】 機械義手 『ATLAS MK.03』... (4617 likes)
+2026-02-23 21:10:57,960 [INFO]   -> 11 imgs (197KB) | 8 avatars | 0 colors | 1 tags
+2026-02-23 21:11:00,359 [INFO] [38/7528] 【8アバター対応】🌙Night Kitty🐈‍⬛... (5784 likes)
+2026-02-23 21:24:44,510 [INFO]   -> 30 imgs (741KB) | 9 avatars | 1 colors | 1 tags
+2026-02-23 21:24:46,799 [INFO] [39/7528] 【26アバター対応】「De Route N85」オリジナル3D衣装... (7286 likes)
+2026-02-23 21:28:21,839 [INFO]   -> 8 imgs (114KB) | 0 avatars | 0 colors | 1 tags
+2026-02-23 21:28:23,527 [INFO] [40/7528] 【無料3Dモデル】【黒色の翼】【VRChat】... (7948 likes)
+2026-02-23 21:29:10,360 [INFO]   -> 10 imgs (145KB) | 0 avatars | 1 colors | 1 tags
+2026-02-23 21:29:13,347 [INFO] [41/7528] FREE無料衣装タイトワンピース「SKKY001」... (7945 likes)
+2026-02-23 21:29:18,559 [INFO]   -> 2 imgs (27KB) | 3 avatars | 0 colors | 1 tags
+2026-02-23 21:29:21,411 [INFO] [42/7528] Campus Life ジャージコーデ... (5030 likes)
+2026-02-23 21:31:47,651 [INFO]   -> 20 imgs (430KB) | 4 avatars | 0 colors | 1 tags
+2026-02-23 21:31:49,603 [INFO] [43/7528] 【6Avatar対応】うさぎちゃんサンタワンピース【VRC想定】... (5114 likes)
+2026-02-23 21:34:52,663 [INFO]   -> 11 imgs (200KB) | 7 avatars | 0 colors | 1 tags
+2026-02-23 21:34:54,630 [INFO] [44/7528] 【10アバター対応】 ♥LIBRA♥ 【VRChat向け衣装モデル】... (5038 likes)
+2026-02-23 21:55:19,224 [INFO]   -> 19 imgs (475KB) | 1 avatars | 0 colors | 1 tags
+2026-02-23 21:55:21,540 [INFO] [45/7528] 【仲春セール】テーラードジャケットコーデ【10体対応】... (5278 likes)
+2026-02-23 22:02:23,433 [INFO]   -> 12 imgs (185KB) | 8 avatars | 0 colors | 1 tags
+2026-02-23 22:02:25,602 [INFO] [46/7528] DwD【13アバター対応】... (5529 likes)
+--- Tail of e:/GitHub/BOOTH-Lens/backend/scraper/scraper.log ---
+2026-02-23 18:24:48,791 - INFO - Successfully uploaded to R2: data\raw_images\6110958_5.jpg
+2026-02-23 18:24:49,912 - INFO - Successfully uploaded to R2: data\raw_images\6110958_6.jpg
+2026-02-23 18:24:50,996 - INFO - Successfully uploaded to R2: data\raw_images\6110958_7.jpg
+2026-02-23 18:24:52,094 - INFO - Successfully uploaded to R2: data\raw_images\6110958_8.jpg
+2026-02-23 18:24:53,189 - INFO - Successfully uploaded to R2: data\raw_images\6110958_9.jpg
+2026-02-23 18:24:54,256 - INFO - Successfully uploaded to R2: data\raw_images\6110958_10.jpg
+2026-02-23 18:24:56,067 - INFO - Successfully uploaded to R2: data\raw_images\6110958_11.jpg
+2026-02-23 18:24:57,323 - INFO - Successfully uploaded to R2: data\raw_images\6110958_12.jpg
+2026-02-23 18:24:58,516 - INFO - Successfully uploaded to R2: data\raw_images\6110958_13.jpg
+2026-02-23 18:24:59,648 - INFO - Successfully uploaded to R2: data\raw_images\6110958_14.jpg
+2026-02-23 18:25:00,740 - INFO - Successfully uploaded to R2: data\raw_images\6110958_15.jpg
+2026-02-23 18:25:01,902 - INFO - Successfully uploaded to R2: data\raw_images\6110958_16.jpg
+2026-02-23 18:25:03,100 - INFO - Successfully uploaded to R2: data\raw_images\6110958_17.jpg
+2026-02-23 18:25:04,209 - INFO - Successfully uploaded to R2: data\raw_images\6110958_18.jpg
+2026-02-23 18:25:05,791 - INFO - Successfully uploaded to R2: data\raw_images\6110958_19.jpg
+2026-02-23 18:25:07,033 - INFO - Successfully uploaded to R2: data\raw_images\6110958_20.jpg
+2026-02-23 18:25:08,307 - INFO - Successfully uploaded to R2: data\raw_images\6110958_21.jpg
+2026-02-23 18:25:09,623 - INFO - Successfully uploaded to R2: data\raw_images\6110958_22.jpg
+2026-02-23 18:25:10,839 - INFO - Successfully uploaded to R2: data\raw_images\6110958_23.jpg
+2026-02-23 18:25:12,095 - INFO - Successfully uploaded to R2: data\raw_images\6110958_24.jpg
+2026-02-23 18:25:13,377 - INFO - Successfully uploaded to R2: data\raw_images\6110958_25.jpg
+2026-02-23 18:25:14,687 - INFO - Successfully uploaded to R2: data\raw_images\6110958_26.jpg
+2026-02-23 18:25:15,939 - INFO - Successfully uploaded to R2: data\raw_images\6110958_27.jpg
+2026-02-23 18:25:17,041 - INFO - Successfully uploaded to R2: data\raw_images\6110958_28.jpg
+2026-02-23 18:25:18,315 - INFO - Successfully uploaded to R2: data\raw_images\6110958_29.jpg
+2026-02-23 18:25:19,466 - INFO - Successfully uploaded to R2: data\raw_images\6110958_30.jpg
+2026-02-23 18:25:20,665 - INFO - Successfully uploaded to R2: data\raw_images\6110958_31.jpg
+2026-02-23 18:25:21,928 - INFO - Successfully uploaded to R2: data\raw_images\6110958_32.jpg
+2026-02-23 18:25:23,066 - INFO - Successfully uploaded to R2: data\raw_images\6110958_33.jpg
+2026-02-23 18:25:23,667 - INFO - Saved: 🩷本命ニット🩷【19アバター対応】 (¥ 2000～) - 34 images
+2026-02-23 18:25:25,169 - INFO - [8/120] Processing: https://booth.pm/ja/items/5572679
+2026-02-23 18:25:25,169 - INFO - Processing item: https://booth.pm/ja/items/5572679
+2026-02-23 18:25:27,089 - INFO - Successfully uploaded to R2: data\raw_images\5572679_0.jpg
+2026-02-23 18:25:28,762 - INFO - Successfully uploaded to R2: data\raw_images\5572679_1.jpg
+2026-02-23 18:25:30,365 - INFO - Successfully uploaded to R2: data\raw_images\5572679_2.jpg
+2026-02-23 18:25:31,972 - INFO - Successfully uploaded to R2: data\raw_images\5572679_3.jpg
+2026-02-23 18:25:33,836 - INFO - Successfully uploaded to R2: data\raw_images\5572679_4.jpg
+2026-02-23 18:25:35,741 - INFO - Successfully uploaded to R2: data\raw_images\5572679_5.jpg
+2026-02-23 18:25:37,671 - INFO - Successfully uploaded to R2: data\raw_images\5572679_6.jpg
+2026-02-23 18:25:39,632 - INFO - Successfully uploaded to R2: data\raw_images\5572679_7.jpg
+2026-02-23 18:25:41,483 - INFO - Successfully uploaded to R2: data\raw_images\5572679_8.jpg
+2026-02-23 18:25:43,018 - INFO - Successfully uploaded to R2: data\raw_images\5572679_9.jpg
+2026-02-23 18:25:43,591 - INFO - Saved: ♞C1 EXPANSION BIG SILHOUETTE MA1 & HOODIE SET♞ (¥ 1400～) - 10 images
+2026-02-23 18:25:45,092 - INFO - [9/120] Processing: https://booth.pm/ja/items/7192364
+2026-02-23 18:25:45,093 - INFO - Processing item: https://booth.pm/ja/items/7192364
+2026-02-23 18:25:46,800 - INFO - Successfully uploaded to R2: data\raw_images\7192364_0.jpg
+2026-02-23 18:25:47,970 - INFO - Successfully uploaded to R2: data\raw_images\7192364_1.jpg
+2026-02-23 18:25:49,166 - INFO - Successfully uploaded to R2: data\raw_images\7192364_2.jpg
+2026-02-23 18:25:55,871 - INFO - Successfully uploaded to R2: data\raw_images\7192364_3.jpg
+2026-02-23 18:25:57,227 - INFO - Successfully uploaded to R2: data\raw_images\7192364_4.jpg

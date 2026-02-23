@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "オリジナル3Dモデル『アズキ』",
+  "description": "オリジナル3Dモデル『アズキ』\nちょっぴり気だるげな、おちゃめで愛らしい猫又の女の子。チャームポイントはしっぽの靴下。\n\n⚠️（2025/6/27 追記）『アズキの猫鍋』ギミックは本体にすでに同梱されているもので、無料アップデートです。追加で購入する必要はございませんので、ご注意ください。⚠️\n\n\n🐱特徴🐱\nポケットから取り出した小判が食べ物にランダム変化！あなたはなに派？\n『えも研アバター』同士だと食べさせ合いが出来ます。\n\n🐱サンプルアバター試着ワールド🐱\nえもラボ（仮）\nhttps://vrchat.com/home/world/wrld_1399bfbd-fd58-43a1-870e-1697d6405bac\n\nアバターミュージアム11にも展示中！\nhttps://vrchat.com/home/world/wrld_5da8116b-1fc7-4197-a0b6-09a231e93a66\n\n🐱『アズキ』対応衣装一覧はこちら🐱\nhttps://booth.pm/ja/search/6654988\n",
+  "url": "https://booth.pm/ja/items/6654988",
+  "offers": {
+    "priceCurrency": "JPY",
+    "availability": "https://schema.org/InStock",
+    "@type": "AggregateOffer",
+    "lowPrice": "300",
+    "highPrice": "6000"
+  },
+  "brand": {
+    "@type": "Brand",
+    "name": "えも研",
+    "url": "https://emolab.booth.pm/"
+  },
+  "image": "https://booth.pximg.net/c/620x620/c4b947e7-1f94-4f8b-aa56-955692b4769a/i/6654988/5d843702-8771-4106-a4f2-155a771b5652_base_resized.jpg"
+}

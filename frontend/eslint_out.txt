@@ -1,0 +1,13 @@
+
+E:\GitHub\BOOTH-Lens\frontend\app\page.tsx
+    3:20  warning  'useCallback' is defined but never used                                                                                                                                                                                                                                                  @typescript-eslint/no-unused-vars
+    9:55  warning  'CropIcon' is defined but never used                                                                                                                                                                                                                                                     @typescript-eslint/no-unused-vars
+    9:65  warning  'Check' is defined but never used                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+   11:37  warning  'PixelCrop' is defined but never used                                                                                                                                                                                                                                                    @typescript-eslint/no-unused-vars
+   85:13  error    'newZoom' is never reassigned. Use 'const' instead                                                                                                                                                                                                                                       prefer-const
+  261:17  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  379:19  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+笨・7 problems (1 error, 6 warnings)
+  1 error and 0 warnings potentially fixable with the `--fix` option.
+

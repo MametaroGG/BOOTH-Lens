@@ -1,0 +1,14 @@
+--- [DEBUG] Starting In-Memory Search API ---
+--- [DEBUG] Device: cpu ---
+--- [DEBUG] Loading CLIP model ---
+--- [DEBUG] CLIP loaded ---
+--- [DEBUG] Initializing in-memory Qdrant ---
+--- [DEBUG] Seeding in-memory Qdrant ---
+--- [DEBUG] Seeded: —HŒÏ‘°‚Ì–ºu‹j[vê—py3Dˆß‘•ƒ‚ƒfƒ‹zRoyal Dress ---
+--- [DEBUG] Seeded: y–Gê—pzƒSƒXƒƒŠƒƒCƒh• ---
+--- [DEBUG] Seeded: y‹j[/–G/‚±‚±‚ ‘Î‰z˜a•—ˆß‘•ƒZƒbƒg ---
+--- [DEBUG] Seeding complete. API ready. ---
+INFO:     127.0.0.1:53200 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53209 - "POST /api/subscription/webhook HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:59540 - "POST /api/subscription/checkout HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52505 - "GET / HTTP/1.1" 200 OK

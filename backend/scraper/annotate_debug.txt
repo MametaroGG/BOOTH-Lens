@@ -1,0 +1,119 @@
+2026-02-23 14:48:47,906 - INFO - Processing 59 images via REST API...
+2026-02-23 14:48:47,906 - INFO - [1/59] Analyzing: 1486105_VRChat着せ替え用衣装浴衣.jpg
+2026-02-23 14:48:48,450 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:48:49,451 - INFO - [2/59] Analyzing: 1579442_EclipseProjectAssaultDress対応追加.jpg
+2026-02-23 14:48:49,920 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:48:50,921 - INFO - [3/59] Analyzing: 3805932_衣装モデルチャイナドレスセットChinaDressSet.jpg
+2026-02-23 14:48:51,380 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:48:52,380 - INFO - [4/59] Analyzing: 3948302_19アバター対応脱げる彼シャツ下着しなのミルティナマヌカシフ.jpg
+2026-02-23 14:48:52,873 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:48:53,874 - INFO - [5/59] Analyzing: 4359380_衣服店Shroud3Dモデル執事服複数アバター対応.jpg
+2026-02-23 14:48:54,419 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:48:55,420 - INFO - [6/59] Analyzing: 4507556_3DモデルSummerGlare.jpg
+2026-02-23 14:48:55,916 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:48:56,916 - INFO - [7/59] Analyzing: 4722146_PBHomewear.jpg
+2026-02-23 14:48:57,507 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:48:58,508 - INFO - [8/59] Analyzing: 4761319_4アバター対応PunkBodysuitOutfit.jpg
+2026-02-23 14:48:59,013 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:00,014 - INFO - [9/59] Analyzing: 4792577_VRC想定衣装アマガラス.jpg
+2026-02-23 14:49:00,465 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:01,465 - INFO - [10/59] Analyzing: 4934573_大正着物衣装TaishoKimonoCloset.jpg
+2026-02-23 14:49:01,973 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:02,974 - INFO - [11/59] Analyzing: 5258748_Head対応衣装モデルナイトブルームNIGHTBRUME.jpg
+2026-02-23 14:49:03,557 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:04,558 - INFO - [12/59] Analyzing: 5322434_12アバター対応CorsetCreamVRC想定衣装.jpg
+2026-02-23 14:49:05,147 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:06,147 - INFO - [13/59] Analyzing: 5334903_DeathKyuureですきゅーれ14アバター対応.jpg
+2026-02-23 14:49:06,685 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:07,686 - INFO - [14/59] Analyzing: 5359699_クマリ対応記念セール中15アバター対応ナイトインヨシワラNi.jpg
+2026-02-23 14:49:08,148 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:09,149 - INFO - [15/59] Analyzing: 5360670_オリジナル3DモデルきゃろんKyal\xf3ng迦龍猫々チャイナ服.jpg
+2026-02-23 14:49:09,713 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:10,714 - INFO - [16/59] Analyzing: 5361885_SKMZしなのミルフィミルティナ桔梗愛莉萌舞夜マヌカセレステ.jpg
+2026-02-23 14:49:11,348 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:12,349 - INFO - [17/59] Analyzing: 5460941_12アバター対応QuietQuillVRChat.jpg
+2026-02-23 14:49:12,956 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:13,957 - INFO - [18/59] Analyzing: 5485641_2024年第1弾断罪セーラーDanzaiSailor.jpg
+2026-02-23 14:49:14,614 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:15,614 - INFO - [19/59] Analyzing: 5523766_VRC想定衣装セツレイスルース.jpg
+2026-02-23 14:49:16,214 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:17,214 - INFO - [20/59] Analyzing: 5594662_影の花Uniformsuit水瀬Minase狛乃Komano.jpg
+2026-02-23 14:49:17,798 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:18,799 - INFO - [21/59] Analyzing: 5672999_YOSOROSailorMarin複数アバター対応.jpg
+2026-02-23 14:49:19,354 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:20,356 - INFO - [22/59] Analyzing: 5722778_複数アバター対応GUIDANCE.jpg
+2026-02-23 14:49:20,810 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:21,811 - INFO - [23/59] Analyzing: 5806520_7アバター対応EnamorAllure.jpg
+2026-02-23 14:49:22,367 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:23,368 - INFO - [24/59] Analyzing: 5891770_Head対応衣装モデルkimono.jpg
+2026-02-23 14:49:23,875 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:24,876 - INFO - [25/59] Analyzing: 5902178_3D衣装セーラー服カーディガン10キャラ対応.jpg
+2026-02-23 14:49:25,365 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:26,366 - INFO - [26/59] Analyzing: 6001917_Silenceblackdress複数アバター対応.jpg
+2026-02-23 14:49:26,821 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:27,822 - INFO - [27/59] Analyzing: 6056167_まめふれんず対応衣装キトゥンサマーKittonsummer.jpg
+2026-02-23 14:49:28,326 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:29,327 - INFO - [28/59] Analyzing: 6100787_TousledLayersHair.jpg
+2026-02-23 14:49:29,827 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:30,828 - INFO - [29/59] Analyzing: 6116225_複数アバター対応FrostyFlareVRChat向け衣装.jpg
+2026-02-23 14:49:31,385 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:32,386 - INFO - [30/59] Analyzing: 6164470_まめふれんず対応衣装ForestFairy.jpg
+2026-02-23 14:49:33,066 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:34,067 - INFO - [31/59] Analyzing: 6213460_まめふれんず対応衣装Prisonyarpunkぷりずにゃーぱ.jpg
+2026-02-23 14:49:34,547 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:35,548 - INFO - [32/59] Analyzing: 6359455_6素体対応衣装まめクローザー.jpg
+2026-02-23 14:49:36,027 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:37,028 - INFO - [33/59] Analyzing: 6370041_複数アバター対応AmberTimeVRChat向け衣装.jpg
+2026-02-23 14:49:37,601 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:38,602 - INFO - [34/59] Analyzing: 6490849_ｽｷﾆﾝｸﾞ済衣装カジュアルウェア.jpg
+2026-02-23 14:49:39,023 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:40,024 - INFO - [35/59] Analyzing: 6495255_AnimationSnowKid18avatars.jpg
+2026-02-23 14:49:40,540 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:41,542 - INFO - [36/59] Analyzing: 6500316_複数アバター対応元カノが着てた部屋着.jpg
+2026-02-23 14:49:42,110 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:43,111 - INFO - [37/59] Analyzing: 6515697_14アバター対応BonniePuffVRChat向け衣装モデ.jpg
+2026-02-23 14:49:43,682 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:44,683 - INFO - [38/59] Analyzing: 6523726_3D衣装RavensPrayerカラスの祈り.jpg
+2026-02-23 14:49:45,219 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:46,220 - INFO - [39/59] Analyzing: 6589658_50ミルティナmilltinav101対応outfit5se.jpg
+2026-02-23 14:49:46,842 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:47,843 - INFO - [40/59] Analyzing: 6594498_オリジナル衣装CasualStrollカジュアルストロール.jpg
+2026-02-23 14:49:48,410 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:49,410 - INFO - [41/59] Analyzing: 6624847_13avatarsVRCHairFlowBraidHair.jpg
+2026-02-23 14:49:49,964 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:50,965 - INFO - [42/59] Analyzing: 6704400_複数アバター対応科学部の先輩が着てそうな白衣制服賢い.jpg
+2026-02-23 14:49:51,441 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:52,442 - INFO - [43/59] Analyzing: 6710416_9アバター対応Casualbunnydress.jpg
+2026-02-23 14:49:52,945 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:53,945 - INFO - [44/59] Analyzing: 6803546_46アバター対応ZEROPOINTVRChat.jpg
+2026-02-23 14:49:54,414 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:55,415 - INFO - [45/59] Analyzing: 6806137_まめふれんず対応衣装StreetBayCrew.jpg
+2026-02-23 14:49:55,947 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:56,948 - INFO - [46/59] Analyzing: 6817597_3DACADEMICHIGHSCHOOLUNIFORM森羅し.jpg
+2026-02-23 14:49:57,521 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:49:58,522 - INFO - [47/59] Analyzing: 6842740_少年衣装SlistiriaSh\xe9ryFizzBarOneDr.jpg
+2026-02-23 14:49:59,048 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:50:00,049 - INFO - [48/59] Analyzing: 6921680_新人ナースのお仕事.jpg
+2026-02-23 14:50:00,506 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:50:01,507 - INFO - [49/59] Analyzing: 6958093_Backtoschoolsale314AnimationCh.jpg
+2026-02-23 14:50:02,000 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:50:03,001 - INFO - [50/59] Analyzing: 7000607_オリジナル3D衣装星途旅装.jpg
+2026-02-23 14:50:03,505 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:50:04,506 - INFO - [51/59] Analyzing: 7163860_VRC衣装KissyPopLovely.jpg
+2026-02-23 14:50:05,009 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:50:06,010 - INFO - [52/59] Analyzing: 7187899_電脳ナース電脳カルテコラボ衣装.jpg
+2026-02-23 14:50:06,502 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:50:07,503 - INFO - [53/59] Analyzing: 7213362_麗夢千歳和風メイドロリータMAIKOMAIDINREVERI.jpg
+2026-02-23 14:50:08,003 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:50:09,004 - INFO - [54/59] Analyzing: 7297596_VRC衣装RoomMe.jpg
+2026-02-23 14:50:09,502 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:50:10,503 - INFO - [55/59] Analyzing: 7470178_BuggyHalo髪型付き衣装16アバター対応.jpg
+2026-02-23 14:50:11,051 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:50:12,052 - INFO - [56/59] Analyzing: 7504718_\U0001d5e7\U0001d606\U0001d5fd\U0001d5f2\U0001d7efRINMKRﾚｲﾝﾒｲｶｰ.jpg
+2026-02-23 14:50:12,612 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:50:13,613 - INFO - [57/59] Analyzing: 7827090_OmeniaPestilence髪型付き衣装18アバター対応.jpg
+2026-02-23 14:50:14,170 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:50:15,171 - INFO - [58/59] Analyzing: 7840752_Nepetaマリシア向け衣装.jpg
+2026-02-23 14:50:15,800 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-23 14:50:16,801 - INFO - [59/59] Analyzing: 7929189_VenomousVows髪型付き衣装20アバター対応.jpg
+2026-02-23 14:50:17,332 - ERROR -   API ERROR: {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}

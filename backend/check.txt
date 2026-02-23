@@ -1,0 +1,2 @@
+Collection Info:
+{'category': PayloadIndexInfo(data_type=<PayloadSchemaType.KEYWORD: 'keyword'>, params=None, points=0), 'colors': PayloadIndexInfo(data_type=<PayloadSchemaType.KEYWORD: 'keyword'>, params=None, points=0), 'shopName': PayloadIndexInfo(data_type=<PayloadSchemaType.KEYWORD: 'keyword'>, params=None, points=0), 'avatars': PayloadIndexInfo(data_type=<PayloadSchemaType.KEYWORD: 'keyword'>, params=None, points=0)}

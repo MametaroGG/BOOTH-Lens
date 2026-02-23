@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c:*)",
+      "Bash(ls:*)",
+      "Bash(/dev/null \"E:/GitHub/BOOTH-Lens/backend/scraper/data/\"*.json)",
+      "Bash(python -m scraper.scrape_all_popular:*)",
+      "Bash(tasklist:*)",
+      "Bash(taskkill:*)",
+      "Bash(powershell -Command \"Get-Process python*,chromium* -ErrorAction SilentlyContinue | Stop-Process -Force; Write-Host ''All killed''\")",
+      "Bash(/mnt/c/Windows/System32/taskkill.exe /F /IM python.exe)",
+      "Bash(/mnt/c/Windows/System32/taskkill.exe /F /IM python3.14.exe)",
+      "Bash(/mnt/c/Windows/System32/taskkill.exe /F /IM chromium.exe)",
+      "Bash(TASKKILL //F //IM python.exe)",
+      "Bash(TASKKILL //F //IM python3.14.exe)"
+    ]
+  }
+}

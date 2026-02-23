@@ -1,0 +1,9 @@
+Using device: cpu
+Loading google/owlv2-base-patch16-ensemble ...
+Starting zero-shot annotation for 5 images against 23 tags...
+Error processing 6403323_4.jpg: 'Owlv2Processor' object has no attribute 'post_process_object_detection'
+Error processing 7811750_7.jpg: 'Owlv2Processor' object has no attribute 'post_process_object_detection'
+Error processing 7233871_10.jpg: 'Owlv2Processor' object has no attribute 'post_process_object_detection'
+Error processing 6979134_16.jpg: 'Owlv2Processor' object has no attribute 'post_process_object_detection'
+Error processing 5237378_0.jpg: 'Owlv2Processor' object has no attribute 'post_process_object_detection'
+Zero-shot auto-annotation complete! 0 images successfully annotated.
