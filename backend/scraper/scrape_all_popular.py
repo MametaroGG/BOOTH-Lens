@@ -521,11 +521,13 @@ def phase1_collect_urls():
                             "collected_at": datetime.now().isoformat(),
                         }
 
-                        if item_url not in existing:
+                        if item_url not in existing or os.getenv("RESET_PROGRESS") == "true":
                             with open(PHASE1_OUTPUT, 'a', encoding='utf-8') as f:
                                 f.write(json.dumps(item_data, ensure_ascii=False) + '\n')
+                            
+                            if item_url not in existing:
+                                new_items_count += 1
                             existing[item_url] = item_data
-                            new_items_count += 1
 
                         page_qualifying += 1
 
@@ -567,9 +569,33 @@ def phase1_collect_urls():
 
         browser.close()
 
+    # Deduplicate PHASE1_OUTPUT to keep only the latest info for each URL
+    deduplicate_jsonl(PHASE1_OUTPUT, key="url")
+
     total = len(existing)
     logger.info(f"Phase 1 complete. Total items with 1000+ likes: {total}")
     return total
+
+
+def deduplicate_jsonl(file_path: Path, key: str = "url"):
+    """Deduplicate a JSONL file, keeping the LATEST entry for each key."""
+    if not file_path.exists():
+        return
+    
+    items = {}
+    with open(file_path, 'r', encoding='utf-8') as f:
+        for line in f:
+            try:
+                data = json.loads(line)
+                items[data[key]] = data
+            except Exception:
+                continue
+    
+    with open(file_path, 'w', encoding='utf-8') as f:
+        for item in items.values():
+            f.write(json.dumps(item, ensure_ascii=False) + '\n')
+    
+    logger.info(f"Deduplicated {file_path.name}. Unique items: {len(items)}")
 
 
 # =============================================================================
