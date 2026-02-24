@@ -384,6 +384,14 @@ def phase1_collect_urls():
     logger.info("=" * 60)
 
     progress = load_progress()
+    
+    # Check for manual reset or if we've reached the end in a previous run
+    if os.getenv("RESET_PROGRESS") == "true" or progress.get("phase1_completed"):
+        logger.info("Resetting progress to page 1.")
+        progress["phase1_last_page"] = 0
+        progress["phase1_completed"] = False
+        save_progress(progress)
+
     start_page = progress.get("phase1_last_page", 0) + 1
     existing = load_existing_items(PHASE1_OUTPUT)
     logger.info(f"Resuming from page {start_page}. Already collected: {len(existing)} items.")
@@ -549,6 +557,13 @@ def phase1_collect_urls():
             except Exception as e:
                 logger.error(f"Page {page_num} error: {e}")
                 sleep_random(5, 10)
+
+        # If we finished normally or reached the limit, mark as completed to loop back next time
+        if page_num >= MAX_PAGES or consecutive_empty >= CONSECUTIVE_EMPTY_PAGES_LIMIT:
+            progress["phase1_completed"] = True
+            progress["phase1_last_page"] = 0 # Prepare for next loop
+            save_progress(progress)
+            logger.info("Reached the end of the target range. Progress will reset next run.")
 
         browser.close()
 
