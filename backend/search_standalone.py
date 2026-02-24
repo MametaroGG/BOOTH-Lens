@@ -98,7 +98,7 @@ except Exception as e:
     print(f"--- [DEBUG] Collection check/create notice: {e} ---")
 
 def get_embedding(image: Image.Image):
-    inputs = processor(images=image, return_tensors="pt").to(device)
+    inputs = processor(images=image, return_tensors="pt", padding=True).to(device)
     with torch.no_grad():
         outputs = model.get_image_features(**inputs)
     
