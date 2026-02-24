@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+backend/.venv/
+
+# Logs
+*.log
+backend_error.log
+backend_output.log
+
+# Temporary / Debug files
+err*.txt
+test.jpg
+test_image.jpg
+debug_tmp.jpg
+
+# Environment
+.env
+backend/.env
+
+# Node.js
+node_modules/
+frontend/.next/
+frontend/node_modules/
+frontend/package-lock.json
