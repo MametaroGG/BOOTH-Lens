@@ -98,7 +98,8 @@ except Exception as e:
     print(f"--- [DEBUG] Collection check/create notice: {e} ---")
 
 def get_embedding(image: Image.Image):
-    inputs = processor(images=image, return_tensors="pt", padding=True).to(device)
+    # Ensure it's treated as a batch of 1 image explicitly to avoid tensor shape mismatch bugs in older transformers versions
+    inputs = processor(images=[image], return_tensors="pt", padding=True).to(device)
     with torch.no_grad():
         outputs = model.get_image_features(**inputs)
     
@@ -333,7 +334,18 @@ async def search_image(file: UploadFile = File(...)):
         
         logging.info("--- [DEBUG] 2. Opening image with PIL ---")
         try:
-            image = Image.open(io.BytesIO(contents)).convert("RGB")
+            img_obj = Image.open(io.BytesIO(contents))
+            # Safely handle animated images by only taking the first frame
+            if getattr(img_obj, "is_animated", False):
+                img_obj.seek(0)
+            
+            # Create a solid white background for transparent images to avoid RGBA bugs
+            image = Image.new("RGB", img_obj.size, (255, 255, 255))
+            if img_obj.mode in ('RGBA', 'LA') or (img_obj.mode == 'P' and 'transparency' in img_obj.info):
+                image.paste(img_obj, mask=img_obj.convert('RGBA').split()[3])
+            else:
+                image.paste(img_obj)
+                
             logging.info(f"--- [DEBUG] Image size: {image.size} ---")
         except Exception as e:
             logging.error(f"--- [DEBUG] PIL Error: {e} ---")
