@@ -100,12 +100,14 @@ def get_booth_identifiers(text: str):
         ids.add(text.lower())
     return ids
 
-def is_blacklisted(shop_name, item_url):
-    # Get IDs for the current item
-    current_ids = get_booth_identifiers(item_url)
-    current_ids.add(shop_name.lower())
+def is_blacklisted(shop_name, item_url, shop_url=None):
+    # Get IDs for the current item and shop
+    all_ids = get_booth_identifiers(item_url)
+    if shop_url:
+        all_ids.update(get_booth_identifiers(shop_url))
+    all_ids.add(shop_name.lower())
     
-    for cid in current_ids:
+    for cid in all_ids:
         if cid in BLACKLISTED_SHOPS:
             return True
     return False
@@ -495,7 +497,7 @@ def phase1_collect_urls():
                         shop_name = shop_el.inner_text().strip() if shop_el.count() > 0 else ""
                         shop_url = shop_el.get_attribute('href') if shop_el.count() > 0 else ""
 
-                        if is_blacklisted(shop_name, item_url):
+                        if is_blacklisted(shop_name, item_url, shop_url):
                             logger.debug(f"  Skipping blacklisted shop/item: {shop_name} - {item_url}")
                             continue
 

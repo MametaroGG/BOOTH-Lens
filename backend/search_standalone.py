@@ -182,6 +182,8 @@ async def seed_data():
 
                     # Check if this shop/item is blacklisted before indexing
                     current_ids = get_booth_identifiers(item["url"])
+                    if item.get("shop_url"):
+                        current_ids.update(get_booth_identifiers(item["shop_url"]))
                     current_ids.add(item.get("shop", "").lower())
                     if any(cid in OPTED_OUT_SHOPS for cid in current_ids):
                          logging.info(f"--- [DEBUG] Skipping blacklisted item during seed: {item.get('title')} ---")
