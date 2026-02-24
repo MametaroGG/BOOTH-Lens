@@ -63,7 +63,7 @@ export default function TermsPage() {
             <footer className="w-full py-12 px-8 border-t border-white/5 bg-zinc-950/50 z-10 backdrop-blur-3xl mt-auto">
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
                     <div className="text-[10px] font-bold text-zinc-600 tracking-[0.3em] uppercase">
-                        &copy; 2026 豆々庵. BOOTH-LENS. ALL RIGHTS RESERVED.
+                        &copy; 2026 豆々庵. BoothPic. ALL RIGHTS RESERVED.
                     </div>
                     <div className="flex gap-6">
                         <Link href="/privacy" className="text-xs font-bold text-zinc-500 hover:text-white transition-colors">{t.home.footer.privacy}</Link>

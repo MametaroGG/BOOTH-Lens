@@ -136,7 +136,7 @@ export default function PricingPage() {
                         <span className="text-sm font-black tracking-tighter text-white uppercase italic">{t.common.appName}</span>
                     </div>
                     <div className="text-[10px] font-bold text-zinc-600 tracking-[0.3em] uppercase">
-                        &copy; 2026 豆々庵. BOOTH-LENS. ALL RIGHTS RESERVED.
+                        &copy; 2026 豆々庵. BoothPic. ALL RIGHTS RESERVED.
                     </div>
                     <div className="flex gap-6">
                         <Link href="/privacy" className="text-xs font-bold text-zinc-500 hover:text-white transition-colors">{t.home.footer.privacy}</Link>

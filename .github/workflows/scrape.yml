@@ -1,4 +1,4 @@
-name: Scheduled BOOTH Scraper
+name: Scheduled BoothPic Scraper
 on:
   schedule:
     # Runs every 6 hours (4 times a day)

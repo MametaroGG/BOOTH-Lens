@@ -64,7 +64,7 @@ export default function OptOutPage() {
             {/* Footer */}
             <footer className="w-full py-12 px-8 border-t border-white/5 bg-zinc-950/50 z-10 backdrop-blur-3xl mt-auto">
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 text-[10px] font-bold text-zinc-600 tracking-[0.3em] uppercase">
-                    &copy; 2026 豆々庵. BOOTH-LENS. ALL RIGHTS RESERVED.
+                    &copy; 2026 豆々庵. BoothPic. ALL RIGHTS RESERVED.
                     <div className="flex gap-6">
                         <Link href="/privacy" className="text-zinc-500 hover:text-white transition-colors">{t.home.footer.privacy}</Link>
                         <Link href="/terms" className="text-zinc-500 hover:text-white transition-colors">{t.home.footer.terms}</Link>

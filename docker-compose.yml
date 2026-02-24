@@ -1,7 +1,7 @@
 services:
   qdrant:
     image: qdrant/qdrant:latest
-    container_name: booth-lens-qdrant
+    container_name: booth-pic-qdrant
     ports:
       - "6333:6333"
       - "6334:6334"
@@ -11,11 +11,11 @@ services:
 
   db:
     image: postgres:15-alpine
-    container_name: booth-lens-db
+    container_name: booth-pic-db
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
-      POSTGRES_DB: booth_lens
+      POSTGRES_DB: booth_pic
     ports:
       - "5432:5432"
     volumes:

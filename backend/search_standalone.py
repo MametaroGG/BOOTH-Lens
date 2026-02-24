@@ -332,7 +332,7 @@ def send_opt_out_email(identifier: str):
         try:
             msg = EmailMessage()
             msg.set_content(f"A new opt-out request has been received for:\n\nShop Identifier: {identifier}\n\nPlease review and delete their data from the index if appropriate.")
-            msg['Subject'] = f'BOOTH-Lens Opt-out Request: {identifier}'
+            msg['Subject'] = f'BoothPic Opt-out Request: {identifier}'
             msg['From'] = email_user
             msg['To'] = 'tyarity3@gmail.com'
 

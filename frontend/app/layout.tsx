@@ -6,7 +6,7 @@ import { LanguageProvider } from "./context/LanguageContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "BOOTH-Lens",
+  title: "BoothPic",
   description: "Find VRChat Assets visually",
   icons: {
     icon: "/icon.svg",

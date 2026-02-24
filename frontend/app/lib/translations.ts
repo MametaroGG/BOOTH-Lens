@@ -1,7 +1,7 @@
 export const translations = {
     en: {
         common: {
-            appName: "BOOTH-Lens",
+            appName: "BoothPic",
             pricing: "Pricing",
             optOut: "Opt-out",
             backToHome: "Back to Home",
@@ -77,17 +77,17 @@ export const translations = {
         },
         optOut: {
             title: "Opt-Out Request",
-            description: "If you are a shop owner and wish to remove your items from BOOTH-Lens search results, please send us a direct message on BOOTH. We will process your request within 48 hours.",
+            description: "If you are a shop owner and wish to remove your items from BoothPic search results, please send us a direct message on BOOTH. We will process your request within 48 hours.",
             buttonText: "Send Message on BOOTH",
         },
         terms: {
             title: "Terms of Service",
             updated: "Last Updated: February 18, 2026",
-            introduction: "These Terms of Service (hereinafter referred to as the 'Terms') set forth the conditions for using 'BOOTH-Lens' (this Service) provided by 'Mamemame-an' (hereinafter referred to as the 'Shop'). By using this Service, users are deemed to have agreed to these Terms.",
+            introduction: "These Terms of Service (hereinafter referred to as the 'Terms') set forth the conditions for using 'BoothPic' (this Service) provided by 'Mamemame-an' (hereinafter referred to as the 'Shop'). By using this Service, users are deemed to have agreed to these Terms.",
             sections: [
                 {
                     title: "1. Service Description",
-                    content: "BOOTH-Lens is an AI-powered visual search engine that allows users to find products on the BOOTH marketplace using images. We provide search and discovery functionality for VRChat assets and creative works. The Shop does not sell items directly through this search interface."
+                    content: "BoothPic is an AI-powered visual search engine that allows users to find products on the BOOTH marketplace using images. We provide search and discovery functionality for VRChat assets and creative works. The Shop does not sell items directly through this search interface."
                 },
                 {
                     title: "2. Compliance with BOOTH Guidelines",
@@ -113,7 +113,7 @@ export const translations = {
         },
         privacy: {
             title: "Privacy Policy",
-            introduction: "BOOTH-Lens (hereinafter referred to as 'this Service'), operated by 'Mamemame-an' (the Shop), establishes this Privacy Policy to ensure the safe and proper handling of user data. We are committed to protecting your privacy and being transparent about how we use your information.",
+            introduction: "BoothPic (hereinafter referred to as 'this Service'), operated by 'Mamemame-an' (the Shop), establishes this Privacy Policy to ensure the safe and proper handling of user data. We are committed to protecting your privacy and being transparent about how we use your information.",
             sections: [
                 {
                     title: "1. Information We Collect",
@@ -136,7 +136,7 @@ export const translations = {
     },
     ja: {
         common: {
-            appName: "BOOTH-Lens",
+            appName: "BoothPic",
             pricing: "料金プラン",
             optOut: "オプトアウト",
             backToHome: "ホームに戻る",
@@ -212,17 +212,17 @@ export const translations = {
         },
         optOut: {
             title: "オプトアウト申請",
-            description: "ショップオーナー様で、BOOTH-Lens検索結果からの除外をご希望の場合は、お手数ですがBOOTHのメッセージ機能よりご連絡ください。対応には最大48時間かかります。",
+            description: "ショップオーナー様で、BoothPic検索結果からの除外をご希望の場合は、お手数ですがBOOTHのメッセージ機能よりご連絡ください。対応には最大48時間かかります。",
             buttonText: "BOOTHでメッセージを送る",
         },
         terms: {
             title: "利用規約",
             updated: "最終更新日: 2026年2月18日",
-            introduction: "本利用規約（以下「本規約」）は、「豆々庵」（以下「当ショップ」）が提供する「BOOTH-Lens」（以下「本サービス」）の利用条件を定めるものです。本サービスを利用することにより、ユーザーは本規約に同意したものとみなされます。",
+            introduction: "本利用規約（以下「本規約」）は、「豆々庵」（以下「当ショップ」）が提供する「BoothPic」（以下「本サービス」）の利用条件を定めるものです。本サービスを利用することにより、ユーザーは本規約に同意したものとみなされます。",
             sections: [
                 {
                     title: "1. サービスの内容",
-                    content: "BOOTH-Lensは、AI技術を用いてBOOTH上の商品を画像から検索できるビジュアル検索エンジンです。VRChat向けアセット等の創作物の発見をサポートすることを目的としており、商品の直接的な販売は行いません。"
+                    content: "BoothPicは、AI技術を用いてBOOTH上の商品を画像から検索できるビジュアル検索エンジンです。VRChat向けアセット等の創作物の発見をサポートすることを目的としており、商品の直接的な販売は行いません。"
                 },
                 {
                     title: "2. BOOTHガイドラインの遵守",
@@ -248,7 +248,7 @@ export const translations = {
         },
         privacy: {
             title: "プライバシーポリシー",
-            introduction: "「豆々庵」（以下「当ショップ」）が運営するBOOTH-Lens（以下「本サービス」）は、ユーザーの皆様の情報を安全かつ適切に取り扱うため、以下のプライバシーポリシーを定めます。当ショップはプライバシー保護に真摯に取り組み、情報の透明性を確保します。",
+            introduction: "「豆々庵」（以下「当ショップ」）が運営するBoothPic（以下「本サービス」）は、ユーザーの皆様の情報を安全かつ適切に取り扱うため、以下のプライバシーポリシーを定めます。当ショップはプライバシー保護に真摯に取り組み、情報の透明性を確保します。",
             sections: [
                 {
                     title: "1. 取得する情報",
