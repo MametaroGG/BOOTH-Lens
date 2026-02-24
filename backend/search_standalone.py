@@ -381,13 +381,13 @@ async def search_image(file: UploadFile = File(...)):
 
         try:
             # Fetch more points to allow for deduplication by product (boothUrl)
-            search_result = qdrant.query_points(
+            search_result = qdrant.search(
                 collection_name=COLLECTION_NAME,
-                query=vector,
+                query_vector=vector,
                 query_filter=query_filter, 
                 limit=40,
                 with_payload=True
-            ).points
+            )
             
             # Deduplicate by boothUrl, keeping only the best match per product
             unique_results = []
