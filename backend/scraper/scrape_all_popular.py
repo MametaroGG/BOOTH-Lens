@@ -45,7 +45,7 @@ load_dotenv(Path(__file__).parent.parent / ".env")
 BASE_URL = "https://booth.pm"
 SEARCH_URL = "https://booth.pm/ja/browse/3D%E8%A1%A3%E8%A3%85?tags%5B%5D=VRChat&adult=include"
 MIN_LIKES = 1000
-MAX_PAGES = 170
+MAX_PAGES = 500
 CONSECUTIVE_EMPTY_PAGES_LIMIT = 3
 
 # Image compression settings (aggressive)
