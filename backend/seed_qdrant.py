@@ -12,10 +12,8 @@ async def main():
     
     vector_db = VectorDBService()
     
-    # Force recreation for a clean slate
-    print("Recreating collection to ensure clean slate with indices...")
-    vector_db.client.delete_collection(vector_db.collection_name)
-    vector_db.ensure_collection()
+        # Upsert only: keep existing vectors in Qdrant (no delete)
+        vector_db.ensure_collection()
     
     image_processor = ImageProcessor()
     

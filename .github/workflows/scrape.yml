@@ -45,6 +45,15 @@ jobs:
           cd backend
           python -m scraper.scrape_all_popular
 
+      - name: Seed Qdrant with new data
+        env:
+          QDRANT_CLOUD_URL: ${{ secrets.QDRANT_CLOUD_URL }}
+          QDRANT_CLOUD_API_KEY: ${{ secrets.QDRANT_CLOUD_API_KEY }}
+          R2_PUBLIC_DEV_URL: ${{ secrets.R2_PUBLIC_DEV_URL }}
+        run: |
+          cd backend
+          python seed_qdrant.py
+
       - name: Commit and Push changes
         run: |
           git config user.name "github-actions"
@@ -52,4 +61,4 @@ jobs:
           git add backend/scraper/data/
           git checkout -- .
           git status
-          git diff --staged --quiet || (git commit -m "Auto-update scraped data [skip ci]" && git pull --rebase origin main && git push origin main)
+          git diff --staged --quiet || (git commit -m "Auto-update scraped data" && git pull --rebase origin main && git push origin main)
