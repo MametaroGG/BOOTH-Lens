@@ -315,7 +315,7 @@ export default function Home() {
           </span>
         </div>
         <nav className="hidden md:flex items-center gap-1 p-1.5 bg-zinc-900/50 backdrop-blur-3xl rounded-2xl border border-white/5 shadow-2xl">
-          <a href="https://mametarovv.booth.pm/items/8024907" target="_blank" rel="noopener noreferrer" className="text-xs font-bold text-zinc-400 hover:text-white px-4 py-2.5 rounded-xl transition-all hover:bg-white/5 flex items-center gap-1.5">
+          <a href="https://mametaro-vv.fanbox.cc/" target="_blank" rel="noopener noreferrer" className="text-xs font-bold text-zinc-400 hover:text-white px-4 py-2.5 rounded-xl transition-all hover:bg-white/5 flex items-center gap-1.5">
             <Coffee className="text-amber-500/80 w-4 h-4" strokeWidth={2.5} /> {t.common.support}
           </a>
           <a href="/opt-out" className="text-xs font-bold text-zinc-400 hover:text-white px-4 py-2.5 rounded-xl transition-all hover:bg-white/5">{t.common.optOut}</a>

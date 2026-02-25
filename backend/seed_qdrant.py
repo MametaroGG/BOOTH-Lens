@@ -12,8 +12,8 @@ async def main():
     
     vector_db = VectorDBService()
     
-        # Upsert only: keep existing vectors in Qdrant (no delete)
-        vector_db.ensure_collection()
+    # Upsert only: keep existing vectors in Qdrant (no delete)
+    vector_db.ensure_collection()
     
     image_processor = ImageProcessor()
     

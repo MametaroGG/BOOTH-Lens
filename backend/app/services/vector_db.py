@@ -77,6 +77,25 @@ class VectorDBService:
 
         processed_urls = set()
         
+        logging.info("--- [VectorDB] Fetching existing IDs from Qdrant to skip... ---")
+        existing_ids = set()
+        next_page = None
+        try:
+            while True:
+                records, next_page = self.client.scroll(
+                    collection_name=self.collection_name, 
+                    limit=5000, 
+                    with_payload=False, 
+                    with_vectors=False,
+                    offset=next_page
+                )
+                for r in records:
+                    existing_ids.add(r.id)
+                if next_page is None: break
+        except Exception as e:
+            logging.error(f"Failed to fetch existing IDs: {e}")
+        logging.info(f"--- [VectorDB] Total existing IDs in Qdrant: {len(existing_ids)} ---")
+        
         try:
             with open(self.metadata_path, "r", encoding="utf-8") as f:
                 total_lines = sum(1 for _ in f)
@@ -102,6 +121,10 @@ class VectorDBService:
                         for img_rel_path in item["images"]:
                             try:
                                 await asyncio.sleep(0.01) # Throttle
+                                
+                                point_id = get_stable_uuid(img_rel_path)
+                                if point_id in existing_ids:
+                                    continue
                                 
                                 is_url = img_rel_path.startswith("http://") or img_rel_path.startswith("https://")
                                 
