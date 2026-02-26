@@ -308,9 +308,11 @@ export default function Home() {
       {/* Navigation */}
       <header className="w-full max-w-7xl flex justify-between items-center px-8 py-8 z-50">
         <div className="flex items-center gap-3 group cursor-pointer">
-          <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center shadow-2xl shadow-blue-500/30 transition-transform group-hover:scale-110 group-active:scale-95">
-            <Search className="text-white w-5 h-5" strokeWidth={3} />
-          </div>
+          <img
+            src="/icon.svg"
+            alt="BoothPic Logo"
+            className="w-10 h-10 rounded-2xl shadow-2xl shadow-blue-500/30 transition-transform group-hover:scale-110 group-active:scale-95"
+          />
           <span className="text-xl font-black tracking-tighter text-white uppercase italic">
             {t.common.appName}
           </span>
@@ -452,9 +454,11 @@ export default function Home() {
       <footer className="w-full py-12 px-8 border-t border-white/5 bg-zinc-950/50 z-10 backdrop-blur-3xl">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex items-center gap-2">
-            <div className="w-6 h-6 rounded-lg bg-blue-500 flex items-center justify-center">
-              <Search className="text-white w-3 h-3" strokeWidth={4} />
-            </div>
+            <img
+              src="/icon.svg"
+              alt="BoothPic Logo"
+              className="w-6 h-6 rounded-lg"
+            />
             <span className="text-sm font-black tracking-tighter text-white uppercase italic">{t.common.appName}</span>
           </div>
           <div className="text-[10px] font-bold text-zinc-600 tracking-[0.3em] uppercase">

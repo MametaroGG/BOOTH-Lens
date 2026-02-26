@@ -31,9 +31,11 @@ export default function MobileMenu({ t }: MobileMenuProps) {
                     <div className="flex flex-col h-full p-8">
                         <div className="flex justify-between items-center mb-12">
                             <div className="flex items-center gap-3">
-                                <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center">
-                                    <span className="text-white text-xs font-black">B</span>
-                                </div>
+                                <img
+                                    src="/icon.svg"
+                                    alt="BoothPic Logo"
+                                    className="w-8 h-8 rounded-xl"
+                                />
                                 <span className="text-lg font-black tracking-tighter text-white uppercase italic">
                                     {t.common.appName}
                                 </span>
