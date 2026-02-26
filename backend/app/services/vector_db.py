@@ -97,90 +97,107 @@ class VectorDBService:
         logging.info(f"--- [VectorDB] Total existing IDs in Qdrant: {len(existing_ids)} ---")
         
         try:
+            # Read all lines to process in reverse
             with open(self.metadata_path, "r", encoding="utf-8") as f:
-                total_lines = sum(1 for _ in f)
-            self.indexing_status["total"] = total_lines
+                lines = f.readlines()
             
-            with open(self.metadata_path, "r", encoding="utf-8") as f:
-                count = 0
-                img_count = 0
-                for line in f:
-                    try:
-                        await asyncio.sleep(0) # Yield to event loop
-                        item = json.loads(line.strip())
-                        count += 1
-                        self.indexing_status["current"] = count
-                        
-                        if not item.get("images") or not item.get("url"):
-                            continue
-                        
-                        if item["url"] in processed_urls:
-                            continue
-                        processed_urls.add(item["url"])
+            self.indexing_status["total"] = len(lines)
+            
+            count = 0
+            img_count = 0
+            consecutive_skips = 0
+            SKIP_LIMIT = 200 # Stop after 200 consecutive already-indexed items
+            
+            # Process in reverse (newest first)
+            for line in reversed(lines):
+                try:
+                    await asyncio.sleep(0) # Yield for async
+                    item = json.loads(line.strip())
+                    count += 1
+                    self.indexing_status["current"] = count
+                    
+                    if not item.get("images") or not item.get("url"):
+                        continue
+                    
+                    if item["url"] in processed_urls:
+                        continue
+                    processed_urls.add(item["url"])
 
-                        for img_rel_path in item["images"]:
-                            try:
-                                await asyncio.sleep(0.01) # Throttle
-                                
-                                point_id = get_stable_uuid(img_rel_path)
-                                if point_id in existing_ids:
-                                    continue
-                                
-                                is_url = img_rel_path.startswith("http://") or img_rel_path.startswith("https://")
-                                
-                                if is_url:
-                                    resp = requests.get(img_rel_path, timeout=10)
+                    all_images_skipped = True
+                    for img_rel_path in item["images"]:
+                        try:
+                            point_id = get_stable_uuid(img_rel_path)
+                            if point_id in existing_ids:
+                                continue
+                            
+                            all_images_skipped = False
+                            consecutive_skips = 0 # Reset skips
+                            
+                            is_url = img_rel_path.startswith("http://") or img_rel_path.startswith("https://")
+                            
+                            if is_url:
+                                try:
+                                    resp = requests.get(img_rel_path, timeout=5)
                                     if resp.status_code != 200:
                                         logging.warning(f"Failed to fetch remote image: {img_rel_path}")
                                         continue
                                     img_data = io.BytesIO(resp.content)
                                     img = Image.open(img_data).convert("RGB")
-                                    filename = img_rel_path.split("/")[-1]
                                     thumbnail_url = img_rel_path
-                                else:
-                                    img_path = os.path.join(self.scraper_dir, img_rel_path)
-                                    if not os.path.exists(img_path):
-                                        filename = os.path.basename(img_rel_path)
-                                        img_path = os.path.join(self.scraper_dir, "raw_images", filename)
-                                    
-                                    if not os.path.exists(img_path):
-                                        continue
-
-                                    img = Image.open(img_path).convert("RGB")
-                                    filename = os.path.basename(img_path)
-                                    thumbnail_url = f"/api/images/{filename}"
-
-                                vector = image_processor.get_embedding(img)
+                                except Exception as e:
+                                    logging.error(f"Error fetching image {img_rel_path}: {e}")
+                                    continue
+                            else:
+                                img_path = os.path.join(self.scraper_dir, img_rel_path)
+                                if not os.path.exists(img_path):
+                                    filename = os.path.basename(img_rel_path)
+                                    img_path = os.path.join(self.scraper_dir, "raw_images", filename)
                                 
-                                payload = {
-                                    "title": item.get("title", "Unknown"),
-                                    "price": item.get("price", "Unknown"),
-                                    "shopName": item.get("shop", "Unknown"),
-                                    "boothUrl": item.get("url", "#"),
-                                    "thumbnailUrl": thumbnail_url,
-                                    "category": item.get("category", "Unknown"),
-                                    "avatars": item.get("avatars", []),
-                                    "colors": item.get("colors", [])
-                                }
-                                point_id = get_stable_uuid(img_rel_path)
+                                if not os.path.exists(img_path):
+                                    continue
+                                
+                                img = Image.open(img_path).convert("RGB")
+                                filename = os.path.basename(img_path)
+                                thumbnail_url = f"/api/images/{filename}"
 
-                                self.client.upsert(
-                                    collection_name=self.collection_name,
-                                    points=[PointStruct(
-                                        id=point_id,
-                                        vector=vector,
-                                        payload=payload
-                                    )]
-                                )
-                                img_count += 1
-                            except Exception as img_e:
-                                logging.error(f"Error indexing image {img_rel_path}: {img_e}")
+                            vector = image_processor.get_embedding(img)
+                            
+                            payload = {
+                                "title": item.get("title", "Unknown"),
+                                "price": item.get("price", "Unknown"),
+                                "shopName": item.get("shop", "Unknown"),
+                                "boothUrl": item.get("url", "#"),
+                                "thumbnailUrl": thumbnail_url,
+                                "category": item.get("category", "Unknown"),
+                                "avatars": item.get("avatars", []),
+                                "colors": item.get("colors", [])
+                            }
+
+                            self.client.upsert(
+                                collection_name=self.collection_name,
+                                points=[PointStruct(
+                                    id=point_id,
+                                    vector=vector,
+                                    payload=payload
+                                )]
+                            )
+                            img_count += 1
+                            existing_ids.add(point_id)
+                        except Exception as img_e:
+                            logging.error(f"Error indexing image {img_rel_path}: {img_e}")
+                    
+                    if all_images_skipped:
+                        consecutive_skips += 1
+                    
+                    if consecutive_skips >= SKIP_LIMIT:
+                        logging.info(f"--- [VectorDB] Reached SKIP_LIMIT ({SKIP_LIMIT}). Early exit. ---")
+                        break
                         
-                        self.indexing_status["last_item"] = f"{item.get('title')}"
-                        
-                    except Exception as e:
-                        logging.error(f"line error: {e}")
-                        
+                    self.indexing_status["last_item"] = f"{item.get('title')}"
+                    
+                except Exception as e:
+                    logging.error(f"Line processing error: {e}")
+                    
         except Exception as e:
             logging.error(f"Seeding fatal error: {e}")
         
